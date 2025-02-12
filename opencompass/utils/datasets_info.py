@@ -151,7 +151,7 @@ DATASETS_MAPPING = {
         "hf_id": "opencompass/humaneval",
         "local": "./data/humaneval_cn/human-eval-cn-v2-20210705.jsonl",
     },
-    #KORBENCH
+    # KORBENCH
     "opencompass/korbench": {
         "ms_id": "",
         "hf_id": "",
@@ -376,7 +376,7 @@ DATASETS_MAPPING = {
     "opencompass/LiveReasonBench": {
         "ms_id": "",
         "hf_id": "",
-        "local": "./data/LiveReasonBench/",    
+        "local": "./data/LiveReasonBench/",
     },
     "opencompass/bigcodebench": {
         "ms_id": "",
@@ -403,6 +403,9 @@ DATASETS_MAPPING = {
         "hf_id": "",
         "local": "./data/OlympiadBench",
     },
+    "opencompass/multi_if": {
+        "local": "./data/MultiIF/multiIF_20241018.csv",
+    },
 }
 
 DATASETS_URL = {
@@ -410,7 +413,7 @@ DATASETS_URL = {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/OlympiadBench.zip",
         "md5": "97e8b1ae7f6170d94817288a8930ef00",
     },
-    "/longbenchv2":{
+    "/longbenchv2": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/longbenchv2.zip",
         "md5": "09b7e06e6f98c5cca8ad597b3d7b42f0",
     },
@@ -605,7 +608,7 @@ DATASETS_URL = {
     "/cmo": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/cmo.zip",
         "md5": "fad52c81290506a8ca74f46b5400d8fc",
-    },  
+    },
     "/nq-open": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/nq-open.zip",
         "md5": "a340521e5c9ec591227dcb367f718b25",
@@ -636,22 +639,22 @@ DATASETS_URL = {
     },
     "subjective/judgerbench": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/judgerbench.zip",
-        "md5": "60d605883aa8cac9755819140ab42c6b"
+        "md5": "60d605883aa8cac9755819140ab42c6b",
     },
     "/arc_prize_public_evaluation": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/arc_prize_public_evaluation.zip",
-        "md5": "367a33977651496efddba7670009807e"
+        "md5": "367a33977651496efddba7670009807e",
     },
     "P-MMEval": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/pmmeval.zip",
         "md5": "09e401e6229a50647b9e13c429e634d1",
     },
     "LiveMathBench": {
-        'url': "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/LiveMathBench.zip",
+        "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/LiveMathBench.zip",
         "md5": "d0781f9185c9bb50e81e6e3ca8c59013",
     },
     "bigcodebench": {
         "url": "http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/bigcodebench.zip",
-        "md5": "2c1c7956ca49a1124617e8c037ec57d8"
-    }
+        "md5": "2c1c7956ca49a1124617e8c037ec57d8",
+    },
 }
